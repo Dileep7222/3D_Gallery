@@ -64,11 +64,11 @@ body::before{
     inset: 0 0 0 0;
     transform: 
         rotateY(calc( (var(--position) - 1) * (360 / var(--quantity)) * 1deg))
-        translateZ(550px);
+        translateZ(500px);
 }
 .banner .slider .item img{
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 100%;
     object-fit: cover;
 }
 .banner .content{
